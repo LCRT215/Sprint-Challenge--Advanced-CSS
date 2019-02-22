@@ -172,10 +172,13 @@ p {
   flex-direction: column;
   align-items: center;
   padding-bottom: 10px;
-  background-color: #f6f6f6;
-  color: #23293b;
+  background-color: rgba(246, 246, 246, 0.9);
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 .navigation h1 {
+  color: #23293b;
   margin-top: 20px;
   margin-bottom: 10px;
   font-size: 4rem;
@@ -200,6 +203,14 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home {
+  margin-top: 12%;
+}
+@media ( max-width: 500px ) {
+  .home {
+    margin-top: 25%;
+  }
 }
 .home .intro img {
   width: 100%;

@@ -169,12 +169,13 @@ p {
   color: #23293b;
 }
 .navigation h1 {
-  margin: 15px 0;
+  margin-top: 20px;
+  margin-bottom: 10px;
   font-size: 4rem;
 }
 .navigation a {
-  font-size: 1.4rem;
-  margin: 0 20px;
+  font-size: 1.6rem;
+  margin: 0 15px;
   text-decoration: none;
   color: #454a59;
 }
@@ -232,6 +233,15 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn button {
+  background-color: #22283a;
+  color: white;
+  width: 80px;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1.4rem;
 }
 .home .walk .walk-img {
   width: 46%;

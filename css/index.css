@@ -173,7 +173,6 @@ p {
   align-items: center;
   padding-bottom: 10px;
   background-color: rgba(246, 246, 246, 0.9);
-  position: fixed;
   top: 0;
   width: 100%;
 }
@@ -203,14 +202,6 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.home {
-  margin-top: 12%;
-}
-@media ( max-width: 500px ) {
-  .home {
-    margin-top: 25%;
-  }
 }
 .home .intro img {
   width: 100%;

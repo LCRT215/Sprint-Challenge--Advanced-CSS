@@ -1,1 +1,29 @@
 // Mixins Here
+
+// Top and bottom margin
+.tb-space(@top:0, @bottom:0) {
+  margin-top: @top;
+  margin-bottom: @bottom;
+}
+
+//bg color, font color, width, height
+.button(@bg-color:white, @font-color: black, @width:auto, @height:auto ) {
+  background-color: @bg-color;
+  color: @font-color;
+  width: @width;
+  height: @height;
+  &:hover {
+    background-color: @shuttle-gray;
+    color: white;
+    transform: scale(1.1);
+    // border: 2px solid lightblue;
+  }
+}
+
+.hide {
+  display: none;
+}
+.full-center {
+  justify-content: center;
+  width: 100%;
+}
